@@ -159,3 +159,38 @@ Jika gaji pengguna tidak lebih dari 3 juta, program akan mencetak "Gaji belum UM
 Hasil output
 
 ![Cuplikan layar 2024-10-27 134939](https://github.com/user-attachments/assets/af1612ef-fb07-4292-8978-4a71d6bd8861)
+
+# Menggunakan kondisi OR dengan menginputkan 3 bilangan
+
+```python
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
+if a+b == c or b+c == a or c+a == b:
+    print("BENAR")
+else:
+    print("SALAH")
+```
+
+operator OR dalam python merubah beberapa kondisi dan mengembalikan true jika salah satu benar.
+
+```python
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
+```
+
+Program ini menginputkan sesuatu ```integer``` yang menggunakan variable a,b,c.
+
+```python
+if a+b == c or b+c == a or c+a == b:
+    print("BENAR")
+else:
+    print("SALAH")
+```
+
+jika (A) ditambah (B) haslnya (C) atau bahasa pemograman itu ```OR``` ,dan apabila (B) ditambah (C) hasilnya (A),dan (C) ditambah (A) maka hasilnya (B). maka output yang keluar adalah "benar"
+
+Hasil output
+
+![Cuplikan layar 2024-10-27 202914](https://github.com/user-attachments/assets/64941294-426d-4999-b16e-e254cf873a00)
