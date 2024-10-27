@@ -114,3 +114,48 @@ if gaji > 3000000:
 else:
     print ("Gaji belum UMR")
 ```
+
+Struktur Kondisi Ini menggunakan desision ```if```, ```elif```, dan ```else```
+
+```python
+gaji = int(input("Masukkan gaji:"))
+```
+
+Program meminta pengguna memasukkan gaji dengan fungsi ```input()```
+
+```python
+berkeluarga = (False, True)[input("Sudah berkeluarga? (Y/T)") == "Y"]
+punya_rumah = (False, True)[input("Punya rumah? (Y/T)") == "Y"]
+```
+
+Inputan ini menggunakan fungsi ```string``` yang dimasukan berupa Huruf, dan ```(False, True)``` ini adalah fungsi pemilihan Y atau T, supaya tidak menggunakan ```if``` dilanjutan program tersbut
+
+```python
+if berkeluarga:
+        print("Wajib ikutan asuransi dan menabung untuk pensiun")
+    else:
+        print("Tidak perlu ikutan asuransi")
+```
+
+Jika angka gaji lebih dari 3 juta maka Output yang akan keluar "Gaji sudah diatas UMR", dan jika tidak ```output``` yang keluar "Tidak perlu ikutan asuransi"
+
+```python
+if punya_rumah:
+        print ("wajib bayar pajak rumah")
+
+    else:
+        print ("tidak wajib bayar pajak rumah")
+```
+
+Jika Memiliki rumah ```output``` yang keluar "Wajib bayar Pajak", jika tidak ```output``` yang keluar "Tidak wajib bayar pajak"
+
+```python
+else:
+    print ("Gaji belum UMR")
+```
+
+Jika gaji pengguna tidak lebih dari 3 juta, program akan mencetak "Gaji belum UMR".
+
+Hasil output
+
+![Cuplikan layar 2024-10-27 134939](https://github.com/user-attachments/assets/af1612ef-fb07-4292-8978-4a71d6bd8861)
